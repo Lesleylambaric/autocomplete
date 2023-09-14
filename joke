@@ -1,0 +1,12 @@
+def __getitem__(self, key):
+        """
+        Return the value for the specified prefix.
+        Raise a KeyError if the given key is not in the prefix tree.
+        Raise a TypeError if the given key is not a string.
+        >>> __getitem__(self,'bark')
+        >>> ''
+         """
+        try:
+            return self.children[key]
+        except (KeyError,TypeError) as error:
+            print(error)
