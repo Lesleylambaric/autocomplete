@@ -1,5 +1,5 @@
 """
-6.1010 Spring '23 Lab 9: Autocomplete
+ Autocomplete
 """
 
 # NO ADDITIONAL IMPORTS!
